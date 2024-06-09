@@ -1,0 +1,50 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #f64c72;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styles pour les inputs */
+/* Styles pour les inputs */
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000; 
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #f64c72;
+}
+
+
